@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.static('public'));
 
 var MONGODB_URI =
-  process.env.MONGODB_URI || 'mongodb://localhost/avnoto-budget-tracker';
+  process.env.MONGODB_URI || 'mongodb://localhost/agsimone-budget-tracker';
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useFindAndModify: false,
